@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+body {
+    background-color: #d2dae6;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+header img {
+    margin-top: 2%;
+}
+
+textarea {
+    border: none;
+    outline: none;
+}
+
+.input-panel {
+    position: absolute;
+    margin: 4% 0 0 12%;
+    width: 45%;
+}
+
+.input-panel textarea {
+    color: #0A3871;
+    font-size: 10px;
+    width: 100%;
+    border-radius: 1px;
+}
+
+::placeholder {
+    color: #0A3871;
+    font-size: medium;
+}
+
+h5 {
+    margin-top: 1%;
+    margin-bottom: 2%;
+    font-weight: normal;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 7%;
+}
+
+.btn-encrypt {
+    color: white;
+    background-color: #0A3871;
+    border: #0A3871;
+    border-radius: 10px;
+    width: 48%;
+    padding: 3%;
+}
+
+.btn-encrypt:hover {
+    opacity: 0.9;
+}
+
+.btn-decrypt {
+    color: #0A3871;
+    background-color: #D8DFE8;
+    border-radius: 10px;
+    width: 48%;
+    padding: 3%;
+}
+
+.btn-decrypt:hover {
+    opacity: 0.6;
+}
+
+.white-panel {
+    position: absolute;
+    background: white;
+    border-radius: 22px;
+    text-align: center;
+    padding: 10%;
+    color: #495057;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.white-panel .white-panel-elements {
+    background: white;
+}
+
+.white-panel .white-panel-elements img {
+    background: white;
+    width: 87%;
+    margin: auto;
+}
+
+.white-panel .white-panel-elements h2 {
+    background: white;
+}
+
+.white-panel .white-panel-elements p {
+    background: white;
+}
+
+.white-panel textarea {
+    background: white;
+    color: #495057;
+}
+
+.result-panel {
+    position: absolute;
+    width: 25%;
+    margin-left: 60%;
+}
+
+.result-panel .result-text {
+    background: white;
+    width: 80%;
+}
+
+.btn-copy-panel {
+    background: white;
+    padding: 5%;
+}
+
+.btn-copy {
+    margin-top: 10px;
+    color: #0A3871;
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 30px;
+    width: 100%;
+    padding: 10%;
+}
+
+.btn-copy:hover {
+    opacity: 0.7;
+}
